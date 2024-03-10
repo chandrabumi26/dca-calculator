@@ -1,6 +1,6 @@
 <template>
-  <div class="navbar">
-    <div class="navbar__logo-container">
+  <div class="navbar-edit">
+    <div class="navbar-edit__logo-container">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
@@ -22,11 +22,11 @@
         </g>
       </svg>
     </div>
-    <span class="navbar__label">DCA</span>
-    <span class="navbar__label">CALCULATORS</span>
-    <div class="navbar__items-container">
+    <span class="navbar-edit__label">DCA</span>
+    <span class="navbar-edit__label">CALCULATORS</span>
+    <div class="navbar-edit__items-container">
       <span
-        class="navbar__items-nav"
+        class="navbar-edit__items-nav"
         v-for="(items, index) in navConfig.items"
         :key="index"
         >{{ items.title }}</span

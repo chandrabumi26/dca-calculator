@@ -1,12 +1,13 @@
 <template>
-  <div class="main">
+  <div class="main-edit">
     <Navbar></Navbar>
-    <div class="content">Tes</div>
+    <Content></Content>
   </div>
 </template>
 
 <script lang="ts" setup>
 import Navbar from "./components/navbar.vue";
+import Content from "./components/content.vue";
 </script>
 
 <style lang="scss" scoped>
